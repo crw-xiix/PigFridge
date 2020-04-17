@@ -1,0 +1,52 @@
+
+Adjustable Settings:
+
+Room Temp Setting:   38F
+Coil Temp Low Setting: 34F
+Hysterisis Amt:  2F  (off at 36, on at 40)
+Humidity Low:   30%
+Air Exchange Time:    10 (minutes/hour) (from unit start up)
+Email for Texts:  12341234234@text.att.net
+Alert Temp for Texts:  44F
+Text Frequency:  30 (minutes)
+
+Pins:  (may change)
+
+D0:  Humidifier Out
+D1:  I2C
+D2:  I2C
+D5:  Exchange fan open
+D6:  Exchange fan close
+D7:  Heater
+
+Elements:
+Temp Gauge (coil) I2C
+Temp/Humid Gauge (room) I2C
+Heater relay out
+Fan Open Relay Out
+Fan Close Relay Out
+
+Time of day is not needed for this.
+
+Website
+	Current temps (2 gauges)
+	Status of heater/fan
+	Log messages for actions
+	Run time
+
+Need the email module I wrote, it's around somewhere....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
